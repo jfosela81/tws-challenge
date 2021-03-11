@@ -1,0 +1,17 @@
+/*!
+Theme Name: Acme Sports
+Description: WP Theme for The Work Shop
+Author: Jorge Fosela
+Author URI: https://jorgefosela.dev
+Version: 1.0
+Text domain: acmesports
+*/
+
+@import 'variables';
+@import 'html-elements';
+@import 'scaffolding';
+@import 'components';
+@import 'components/table.scss';
+@import 'components/input-text.scss';
+@import 'components/select.scss';
+@import 'footer';

@@ -1,0 +1,24 @@
+$color-1: #e73447;
+$color-2: #405aa6;
+$gray: #f4f4f4;
+$black: #333;
+
+$main-font: 'Roboto', sans-serif;
+$title-font: 'Roboto', serif;
+
+$row-width: 1200px;
+
+$tablet-size: 768px;
+$mobile-size: 600px;
+
+@mixin tablet {
+	@media screen and (max-width: $tablet-size) {
+		@content;
+	}
+}
+
+@mixin mobile {
+	@media screen and (max-width: $mobile-size) {
+		@content;
+	}
+}
