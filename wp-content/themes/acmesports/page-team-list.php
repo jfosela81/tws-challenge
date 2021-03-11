@@ -38,7 +38,11 @@ if ( have_posts() ) {
 
 		if ( has_post_thumbnail() ) {
 
-			the_post_thumbnail();
+			?>
+			<header class="page-header" 
+				style="background-image: url('<?php echo get_the_post_thumbnail_url(); ?>')">
+			</header>
+			<?php
 
 		}
 
